@@ -1,0 +1,140 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+body {
+	background:#333333;
+	margin:0;
+	font-family:"Courier New", Courier, monospace;
+}
+
+h2 {
+	color:#00CCFF;
+	margin:0;
+	padding-left: 1.5em;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing:border-box;
+}
+
+.logo {
+	color: #FFFFFF;
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	font-weight: 500;
+	letter-spacing: .05em;
+	margin-left: 5px;
+
+}
+
+.container {
+	width:100%;
+	margin:0 auto;
+}
+
+.header {
+	display: inline-flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	z-index: 1000;
+	width: 100%;
+	background-color: #222222;
+}
+
+.info_cont {
+	display: inline-flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	background-color: #222222;
+	width: 90%;
+	padding: 10px 10px 10px 10px ;
+	margin: 20px 5% 20px 5% ;
+	border-top: solid 3px;
+	border-bottom: solid 3px;
+	border-color: #888888;
+	color: #fffeca;
+}
+
+.info_big {
+	align-content: center;
+	margin: 10px 10px 10px 10px;
+	background-position: bottom 10px;;
+	padding: 1% 1% 1% 1% ;
+	color: #fffeca;
+	font-family: 'Neucha', cursive;
+	font-size: 20px;
+	font-kerning: normal;
+	letter-spacing: .05em;
+}
+
+.info_small2 {
+	align-content: center;
+	margin: 10px 10px 10px 10px;
+	background-position: bottom 10px;;
+	padding: 1% 1% 1% 1% ;
+	color: #fffeca;
+	font-family: 'Neucha', cursive;
+	font-size: 20px;
+	font-kerning: normal;
+	letter-spacing: .05em;
+	width: 45%;
+}
+
+.img_small2 {
+	width: 100%;
+	
+	
+}
+
+.img_small2:hover {
+	opacity: 40%;
+	
+	
+}
+
+
+.navig_block {
+	padding: 0px 20px 0 0;
+	margin: 5px 0px 0px 0px;
+}
+
+.navig_link {
+	/*text-transform: uppercase;*/
+	text-decoration: none;
+	font-size: 24px;
+	transition: color .15s linear;
+
+	padding:0px 8px 0px 8px;
+	vertical-align: top;
+	font-family: 'Neucha', cursive;
+	font-weight: 500;
+	color:#cccccc;
+	text-shadow: 2px 2px 3px black;
+	border: 3px 3px 3px 3px;
+	border-color: #464646;
+	letter-spacing: .05em;
+}
+
+
+
+
+p:first-letter {
+	padding-left: 1.5em;
+}
+
+
+.navig_link:hover {
+	color:#ffffff;
+	background-color: #555555;
+}
+
+
+
+
+
+
+
